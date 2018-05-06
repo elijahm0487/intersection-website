@@ -20,17 +20,27 @@
         #logo {
             width: 225px;
         }
-        @font-face{
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #statement {
+            background-color: black;
+        }
+
+        @font-face {
             font-family: "intersection";
             /* name to be used later */
             src: url(urban-brush.ttf)
             /*URL/file path to font*/
         }
-        
-        video{
-            max-height:800;
+
+        video {
+            max-height: 800;
         }
-        
+
         h4 {
             font-size: 25px;
             font-family: 'intersection', sans-serif;
@@ -42,7 +52,12 @@
             font-family: 'Crimson Text', serif;
         }
 
-        
+        #eli {
+            border-radius: 90%;
+            width: 200px;
+        }
+
+
 
         @media(min-width:768px) {
             h4 {
@@ -114,16 +129,15 @@
 
         </div>
     </nav>
-    <div id="statement">
-        <br><br><br><br><br>
-        <p>Christian or not, everyone is welcome at The Intersection. We discuss the Christian faith with an openness to any belief, tradition, question, debate, or idea to share. Bring a kind and open mind to The Intersection!</p>
-    </div>
 
-    
+
     <div id="video">
 
         <video width="100%" height="100%" controls><source type = video/mp4 src = video.mp4></video>
 
+    </div>
+    <div id="statement" class="jumbotron">
+        <p>Christian or not, everyone is welcome at The Intersection. We discuss the Christian faith with an openness to any belief, tradition, question, debate, or idea to share. Bring a kind and open mind to The Intersection!</p>
     </div>
     <div id="story">
 
@@ -176,59 +190,67 @@
     </div>
     <div id="team">
         <h4>The Team</h4>
-        <p>Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the conscious decision to call the Christian faith his own, Elijah knew
-            that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global History teacher
-            Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
-        <br>
-        <p>Mr Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement. He
-            will occasionally prod the conversation with a question or thought, and he also coaches Elijah through the planning and facilitating of complex conversations.
-        </p>
-    </div>
-    <div id="music">
-        <h4>The Music of a Movement</h4>
-        <ul>
-            <li>
-                <p>Always Knew - Lecrae</p>
-                <a id="alwaysknew" src=https://youtu.be/pDwLEmDn828>
-            </li>
-            <li>
-                <p>Dear Mr. Christian - Derek Minor</p>
-                <a id="mrchristian" src=https://youtu.be/2Uf8F7jIkYc>
-            </li>
-            <li>
-                <p>Repentance - 116</p>
-                <a id="repentance" src=https://youtu.be/cZ2J7-dvMHQ>
-            </li>
-            <li>
-                <p>D.A. T.R.U.T.H. - Religion</p>
-                <a id="religion" src=https://youtu.be/T7K0dP9PaDg>
-            </li>
-            <li>
-                <p>Superhuman - Andy Mineo</p>
-                <a id="superhuman" src=https://youtu.be/kS2mTyOKB-g>
-            </li>
-            <li>
-                <p>Son of David - Ghost Ship</p>
-                <a id="sonofdavid" src=https://youtu.be/9Rd-fRlRZrI>
-            </li>
-            <li>
-                <p>8:28 - Lecrae</p>
-                <a id="8:28" src=https://youtu.be/KPXV-VWcEAY>
-            </li>
-            <li>
-                <p>Triune Praise Remix - Shai Linne</p>
-                <a id="triunepraise" src=https://youtu.be/4atsyBFsIes>
-            </li>
-            <li>
-                <p>New Portrait - KB</p>
-                <a id="newportrait" src=https://youtu.be/ySecfWtjm58 </li>
-                    <li>
-                        <p>Make Me A Believer - Andy Mineo</p>
-                        <a id="makemeabeliever" src=https://youtu.be/Sm9KWMc_tpM>
-                    </li>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/eli.jpg" class="rounded-circle" id="eli">
+                    <p>Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the conscious decision to call the Christian faith his own,
+                        Elijah knew that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his
+                        Global History teacher Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
+                </div>
+                <br>
+                <div class="col-sm-6">
+                    <p>Mr. Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement.
+                        He will occasionally prod the conversation with a question or thought, and he also coaches Elijah through the planning and facilitating of complex conversations.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="music">
+            <h4>The Music of a Movement</h4>
+            <ul>
+                <li>
+                    <p>Always Knew - Lecrae</p>
+                    <a id="alwaysknew" src=https://youtu.be/pDwLEmDn828>
+                </li>
+                <li>
+                    <p>Dear Mr. Christian - Derek Minor</p>
+                    <a id="mrchristian" src=https://youtu.be/2Uf8F7jIkYc>
+                </li>
+                <li>
+                    <p>Repentance - 116</p>
+                    <a id="repentance" src=https://youtu.be/cZ2J7-dvMHQ>
+                </li>
+                <li>
+                    <p>D.A. T.R.U.T.H. - Religion</p>
+                    <a id="religion" src=https://youtu.be/T7K0dP9PaDg>
+                </li>
+                <li>
+                    <p>Superhuman - Andy Mineo</p>
+                    <a id="superhuman" src=https://youtu.be/kS2mTyOKB-g>
+                </li>
+                <li>
+                    <p>Son of David - Ghost Ship</p>
+                    <a id="sonofdavid" src=https://youtu.be/9Rd-fRlRZrI>
+                </li>
+                <li>
+                    <p>8:28 - Lecrae</p>
+                    <a id="8:28" src=https://youtu.be/KPXV-VWcEAY>
+                </li>
+                <li>
+                    <p>Triune Praise Remix - Shai Linne</p>
+                    <a id="triunepraise" src=https://youtu.be/4atsyBFsIes>
+                </li>
+                <li>
+                    <p>New Portrait - KB</p>
+                    <a id="newportrait" src=https://youtu.be/ySecfWtjm58 </li>
+                        <li>
+                            <p>Make Me A Believer - Andy Mineo</p>
+                            <a id="makemeabeliever" src=https://youtu.be/Sm9KWMc_tpM>
+                        </li>
 
-        </ul>
-    </div>
+            </ul>
+        </div>
 
 
 </body>
