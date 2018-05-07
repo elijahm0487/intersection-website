@@ -18,7 +18,28 @@
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Allerta+Stencil" rel="stylesheet">
     <style>
         #logo {
-            width: 225px;
+            width: 280px;
+            margin: 5px 0px 10px 0px;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #navbar {
+            background-color: black;
+            color: white;
+        }
+
+        .tabs {
+            margin: 0px 0px 0px 15px;
+            padding: 0px 0px 0px 2px;
+
+        }
+
+        #statement {
+            background-color: black;
         }
 
         @font-face {
@@ -29,11 +50,12 @@
         }
 
         video {
-            max-height: 800;
+            max-height: 700px;
+            /*height:100%;*/
         }
 
         h4 {
-            font-size: 25px;
+            font-size: 30px;
             font-family: 'intersection', sans-serif;
 
         }
@@ -43,14 +65,33 @@
             font-family: 'Crimson Text', serif;
         }
 
+        #eli {
+            border-radius: 0%;
+            width: 200px;
+            float: left;
+            padding: 35px 0px 0px 0px;
+            margin: 0px 12px 0px 0px;
+        }
+
+        #elibio {
+            margin: auto;
+            padding: 0px 0px 0px 210px;
+        }
+
+        .center {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+        }
+
 
 
         @media(min-width:768px) {
             h4 {
-                font-size: 30px;
+                font-size: 35px;
             }
             p {
-                font-size: 20px;
+                font-size: 17px;
             }
             /*video{*/
             /*    width:400px ;*/
@@ -60,23 +101,20 @@
 
         @media(min-width:992px) {
             h4 {
-                font-size: 35px;
+                font-size: 40px;
             }
             p {
-                font-size: 23px;
+                font-size: 18px;
             }
-            /*video{*/
-            /*    width:400px ;*/
-            /*    height: 230px;*/
-            /*}*/
+
         }
 
         @media(min-width:1200px) {
             h4 {
-                font-size: 40px;
+                font-size: 45px;
             }
             p {
-                font-size: 26px;
+                font-size: 20px;
             }
             /*video{*/
             /*    width:840px ;*/
@@ -92,44 +130,42 @@
 
 <body>
 
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+    <div id="navbar">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
       </button>
-                <a class="brand brand-name navbar-left" href="#"><img src = images/whitelogo.png id = "logo"></a>
+                    <a class="brand brand-name navbar-left" href="#"><img src = images/whitelogo.png id = "logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="nav navbar-nav">
+                        <li id="hometab" class="tabs"><br><a href="#">Home</a></li>
+                        <li id="storytab" class="tabs"><br><a href="#story">Our Story</a></li>
+                        <li id="topictab" class="tabs"><br><a href="#topics">Topics</a></li>
+                        <li id="teamtab" class="tabs"><br><a href="#team">The Team</a></li>
+                        <li id="musictab" class="tabs"><br><a href="#music">The Music of a Movement</a></li>
+
+                    </ul>
+
+                </div>
+
             </div>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#story">Our Story</a></li>
-                    <li><a href="#topics">Topics</a></li>
-                    <li><a href="#team">The Team</a></li>
-                    <li><a href="#music">The Music of a Movement</a></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-    </nav>
-    <div id="statement">
-        <br><br><br><br><br>
-        <p>Christian or not, everyone is welcome at The Intersection. We discuss the Christian faith with an openness to any belief, tradition, question, debate, or idea to share. Bring a kind and open mind to The Intersection!</p>
     </div>
-
-
+    </nav>
+    <br><br><br><br><br>
     <div id="video">
-        <video width="100%" height="100%" controls  autoplay>
+        <video width="100%" height="100%" controls autoplay>
           <source src = video.mp4 type = video/mp4>
           Your browser does not support the video tag.
         </video>
 
     </div>
+    <div id="statement" class="jumbotron">
+        <p>Christian or not, everyone is welcome at The Intersection. We discuss the Christian faith with an openness to any belief, tradition, question, debate, or idea to share. Bring a kind and open mind to The Intersection!</p>
+    </div>
     <div id="story">
-
         <h4>OUR STORY</h4>
         <p>The most contentious topic in our society today, yet one of the most vital and uniquely impactful elements to our lives is undoubtedly: our faith. It's a subject that carries an immense volume of pending questions and continuing point of views
             that are often left undiscussed, ignored or downplayed. Why couldn't there be a place where people could come together in peace to discuss these ideas safely? Imagine if there was a place where you would not be shunned for what you believe,
@@ -138,6 +174,7 @@
             and beliefs, to have a conversation without any hostile opposition or restraint. A place where Christians and Non-christians come together. Everyone’s on their own path. We are the Intersection.</p>
     </div>
     <div id="topics">
+        <br>
         <h4>Topics</h4>
         <ul>
 
@@ -177,52 +214,31 @@
         </ul>
 
     </div>
-    <div id="team">
-        <h4>The Team</h4>
-        <p>Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the conscious decision to call the Christian faith his own, Elijah knew
-            that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global History teacher
-            Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
+    <div class="center" id="team">
         <br>
-        <p>Mr Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement. He
-            will occasionally prod the conversation with a question or thought, and he also coaches Elijah through the planning and facilitating of complex conversations.
-        </p>
-    </div>
-    <div id="music">
-        <h4>The Music of a Movement</h4>
-        <ul>
-            <li>
-                <p>Always Knew - Lecrae</p>
-            </li>
-            <li>
-                <p>Dear Mr. Christian - Derek Minor</p>
-            </li>
-            <li>
-                <p>Repentance - 116</p>
-            </li>
-            <li>
-                <p>D.A. T.R.U.T.H. - Religion</p>
-            </li>
-            <li>
-                <p>Superhuman - Andy Mineo</p>
-            </li>
-            <li>
-                <p>Son of David - Ghost Ship</p>
-            </li>
-            <li>
-                <p>8:28 - Lecrae</p>
-            </li>
-            <li>
-                <p>Triune Praise Remix - Shai Linne</p>
-            </li>
-            <li>
-                <p>TODAY WE REBEL - KB</p>
-            </li>
-            <li>
-                <p>Make Me A Believer - Andy Mineo</p>
-            </li>
+        <h4>The Team</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/eli.jpg" class="rounded-circle" id="eli">
+                    <p id="elibio">Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
+                        knew that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global
+                        History teacher Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
+                </div>
+                <br>
+                <div class="col-sm-6">
+                    <p>Mr. Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement.
+                        He will occasionally prod the conversation with a question or thought, and he also coaches Elijah through the planning and facilitating of complex conversations.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="center" id="music">
+            <h4>The Tracks</h4>
+            <div id="spotify playlist"><iframe src="https://open.spotify.com/embed/user/22x3moo3fejbg4w4767ccyfca/playlist/118iMm2tmWnEBpZ8Woq0ub" width="80%" height="500" frameborder="0" allowtransparency="true"></iframe></div>
 
-        </ul>
-    </div>
+            </ul>
+        </div>
 
 
 </body>
