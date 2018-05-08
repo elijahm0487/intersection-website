@@ -28,7 +28,7 @@
         @font-face {
             font-family: "intersection";
             /* name to be used later */
-            src: url(urban-brush.ttf)
+            src: url(../urban-brush.ttf)
             /*URL/file path to font*/
         }
 
