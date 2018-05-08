@@ -7,6 +7,8 @@
     <title>The Intersection</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style.css">
+
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,32 +18,30 @@
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Allerta+Stencil" rel="stylesheet">
-   <script>
-    
-    $(function(){
-          $("h4").mouseenter(function(){
-              var fontSize = parseInt($(this).css("font-size"));
-              console.log(fontSize)
-                  fontSize = fontSize +10+ "px";
-             $(this).animate({
-                 fontSize:fontSize
+    <script>
+        $(function() {
+            $("h4").mouseenter(function() {
+                var fontSize = parseInt($(this).css("font-size"));
+                console.log(fontSize)
+                fontSize = fontSize + 10 + "px";
+                $(this).animate({
+                    fontSize: fontSize
+                })
+
             })
-            
-        })
-        $("h4").mouseleave(function(){
-              var fontSize = parseInt($(this).css("font-size"));
-              console.log(fontSize)
-                  fontSize = fontSize -10 + "px";
-             $(this).animate({
-                 fontSize:fontSize
+            $("h4").mouseleave(function() {
+                var fontSize = parseInt($(this).css("font-size"));
+                console.log(fontSize)
+                fontSize = fontSize - 10 + "px";
+                $(this).animate({
+                    fontSize: fontSize
+                })
+
             })
-            
-        })
-        
-        
-        
-    });
-    
+
+
+
+        });
     </script>
     <style>
         #logo {
@@ -127,6 +127,10 @@
             }
             p {
                 font-size: 17px;
+            }
+            .bio {
+                margin: 0px 20px 0px 0px;
+                padding: 200px 200px 200px 210px;
             }
             /*video{*/
             /*    width:400px ;*/
@@ -247,6 +251,9 @@
             <li>
                 <p>The Trinity</p>
             </li>
+            <li>
+                <p>Life As A Road</p>
+            </li>
 
 
 
@@ -260,7 +267,7 @@
             <div class="row">
                 <div class="col-sm-9">
                     <img src="images/eli.jpg" class="images center" id="eli">
-                    <p class="bio" align = "left">Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
+                    <p class="bio" align="left">Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
                         knew that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global
                         History teacher Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
 
@@ -269,7 +276,7 @@
                 <div class="col-sm-9">
                     <img src="images/mueller.jpg" class="images center" id="mueller">
                     <br><br>
-                    <p class="bio" align = "left">Mr. Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement.</p>
+                    <p class="bio" align="left">Mr. Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement.</p>
                 </div>
             </div>
             <div class="center" id="music">
