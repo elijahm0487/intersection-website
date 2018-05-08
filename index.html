@@ -7,159 +7,19 @@
     <title>The Intersection</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/style.css">
 
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src ="jquery/.js"
 
-    <!-- Latest compiled JavaScript -->
+    <!--Latest compiled JavaScript-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Allerta+Stencil" rel="stylesheet">
-    <script>
-        $(function() {
-            $(".hovering").mouseenter(function() {
-                var fontSize = parseInt($(this).prev().css("font-size"));
-                console.log(fontSize)
-                fontSize = fontSize + 10 + "px";
-                $(this).prev().animate({
-                    fontSize: fontSize
-                })
 
-            })
-            $(".hovering").mouseleave(function() {
-                var fontSize = parseInt($(this).prev().css("font-size"));
-                console.log(fontSize)
-                fontSize = fontSize - 10 + "px";
-                $(this).prev().animate({
-                    fontSize: fontSize
-                })
-
-            })
-
-
-
-        });
-    </script>
-    <style>
-        #logo {
-            width: 280px;
-            margin: 5px 0px 10px 0px;
-
-        }
-
-        body {
-            background-color: black;
-            color: white;
-        }
-
-        #navbar {
-            background-color: black;
-            color: white;
-        }
-
-        .tabs {
-            margin: 0px 0px 0px 15px;
-            padding: 0px 0px 0px 2px;
-
-        }
-
-        #statement {
-            background-color: black;
-        }
-
-        @font-face {
-            font-family: "intersection";
-            /* name to be used later */
-            src: url(urban-brush.ttf)
-            /*URL/file path to font*/
-        }
-
-        video {
-            max-height: 700px;
-            /*height:100%;*/
-        }
-
-        h4 {
-            font-size: 60px;
-
-            font-family: 'intersection', sans-serif;
-
-        }
-
-        p {
-            font-size: 17px;
-            font-family: 'Crimson Text', serif;
-        }
-
-        .images {
-            border-radius: 0%;
-            width: 200px;
-            float: left;
-            padding: 35px 0px 0px 0px;
-            margin: 10px 12px 0px 0px;
-        }
-
-        #mueller {
-            padding: 15px 0px 0px 0px;
-        }
-
-        .bio {
-            margin: 0px 20px 0px 0px;
-            padding: 0px 0px 0px 210px;
-
-        }
-
-        .center {
-            margin: auto;
-            padding: 10px;
-            text-align: center;
-
-        }
-
-
-
-        @media(min-width:768px) {
-            h4 {
-                font-size: 70px;
-            }
-            p {
-                font-size: 17px;
-            }
-           
-            /*video{*/
-            /*    width:400px ;*/
-            /*    height: 230px;*/
-            /*}*/
-        }
-
-        @media(min-width:992px) {
-            h4 {
-                font-size: 80px;
-            }
-            p {
-                font-size: 18px;
-            }
-
-        }
-
-        @media(min-width:1200px) {
-            h4 {
-                font-size: 85px;
-            }
-            p {
-                font-size: 20px;
-            }
-
-        }
-    </style>
-    <script>
-        $(function() {
-            $('#logo').fadeIn(20000)
-        })
-    </script>
 </head>
 
 
