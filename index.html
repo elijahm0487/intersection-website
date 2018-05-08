@@ -7,15 +7,16 @@
     <title>The Intersection</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src ="jquery/script.js"
 
     <!--Latest compiled JavaScript-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery/script.js"></script>
+
+    <!--Latest bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Allerta+Stencil" rel="stylesheet">
@@ -50,9 +51,11 @@
                 </div>
 
             </div>
+
+        </nav>
     </div>
-    </nav>
-    <br><br><br><br><br>
+
+    <br><br><br><br><br><br>
 
     <div id="video">
         <video width="100%" height="100%" controls autoplay>
@@ -65,18 +68,18 @@
         <p>Christian or not, everyone is welcome at The Intersection. We discuss the Christian faith with an openness to any belief, tradition, question, debate, or idea to share. Bring a kind and open mind to The Intersection!</p>
     </div>
 
-    <div id="story">
+    <div class="hover navbarAnchor" id="story">
         <h4>OUR STORY</h4>
-        <p class="hovering">The most contentious topic in our society today, yet one of the most vital and uniquely impactful elements to our lives is undoubtedly: our faith. It's a subject that carries an immense volume of pending questions and continuing point of views
+        <p>The most contentious topic in our society today, yet one of the most vital and uniquely impactful elements to our lives is undoubtedly: our faith. It's a subject that carries an immense volume of pending questions and continuing point of views
             that are often left undiscussed, ignored or downplayed. Why couldn't there be a place where people could come together in peace to discuss these ideas safely? Imagine if there was a place where you would not be shunned for what you believe,
             but instead encouraged to express yourself. What if there was a place where people could come together and discuss their varying views not to prove the other wrong, but to communicate what they believe freely? These were the questions that
             inspired Elijah Matos, a Freshman student at the time, to make that place, a reality. Room 206 is the home to the Intersection. The place where anyone can come to discuss the Christian faith and bring in their own questions, point of views,
             and beliefs, to have a conversation without any hostile opposition or restraint. A place where Christians and Non-christians come together. Everyone’s on their own path. We are the Intersection.</p>
     </div>
-    <div id="topics">
-        <br>
+    <br>
+    <div class="hover navbarAnchor" id="topics">
         <h4>Topics</h4>
-        <ul class="hovering">
+        <ul>
 
             <li>
                 <p>Setting the Norms</p>
@@ -117,32 +120,37 @@
         </ul>
 
     </div>
-    <div class="center" id="team">
+    <div class="navbarAnchor" id="team">
+        <div class="center hover">
+            <h4>The Team</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <img src="images/eli.jpg" class="images center" id="eli">
+                        <p class="bio" align="left">Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
+                            knew that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global
+                            History teacher Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
 
-        <h4>The Team</h4>
-
-        <div class="container hovering">
-            <div class="row">
-                <div class="col-sm-9">
-                    <img src="images/eli.jpg" class="images center" id="eli">
-                    <p class="bio" align="left">Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
-                        knew that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global
-                        History teacher Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
-
+                    </div>
+                    <br>
+                    <div class="col-sm-9">
+                        <img src="images/mueller.jpg" class="images center" id="mueller">
+                        <br><br>
+                        <p class="bio" align="left">Mr. Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission
+                            statement.</p>
+                    </div>
                 </div>
-                <br>
-                <div class="col-sm-9">
-                    <img src="images/mueller.jpg" class="images center" id="mueller">
-                    <br><br>
-                    <p class="bio" align="left">Mr. Mueller (Faculty Advisor/Facilitator) - Mr. Mueller grew up in Aurora, Colorado and has lived in Brooklyn since 2011. His primary role in the Intersection is to ensure that everyone who attends the club adheres to the mission statement.</p>
-                </div>
-            </div>
-            <div class="center" id="music">
-                <h4>The Tracks</h4>
-                <div id="spotify playlist"><iframe src="https://open.spotify.com/embed/user/22x3moo3fejbg4w4767ccyfca/playlist/118iMm2tmWnEBpZ8Woq0ub" width="80%" height="500" frameborder="0" allowtransparency="true"></iframe></div>
 
             </div>
         </div>
+    </div>
+
+    <div class="center hover navbarAnchor" id="music">
+        <h4>The Tracks</h4>
+        <div id="spotify playlist"><iframe src="https://open.spotify.com/embed/user/22x3moo3fejbg4w4767ccyfca/playlist/118iMm2tmWnEBpZ8Woq0ub" width="80%" height="500" frameborder="0" allowtransparency="true"></iframe></div>
+
+    </div>
+
 
 
 </body>

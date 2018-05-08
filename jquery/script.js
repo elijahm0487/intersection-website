@@ -1,18 +1,18 @@
  $(function() {
-            $(".hovering").mouseenter(function() {
-                var fontSize = parseInt($(this).prev().css("font-size"));
+            $(".hover").mouseenter(function() {
+                var fontSize = parseInt($(this).children(":first").css("font-size"));
                 console.log(fontSize)
                 fontSize = fontSize + 10 + "px";
-                $(this).prev().animate({
+                $(this).children(":first").animate({
                     fontSize: fontSize
                 })
 
             })
-            $(".hovering").mouseleave(function() {
-                var fontSize = parseInt($(this).prev().css("font-size"));
+            $(".hover").mouseleave(function() {
+                var fontSize = parseInt($(this).children(":first").css("font-size"));
                 console.log(fontSize)
                 fontSize = fontSize - 10 + "px";
-                $(this).prev().animate({
+                $(this).children(":first").animate({
                     fontSize: fontSize
                 })
 
