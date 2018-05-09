@@ -1,113 +1,157 @@
+#logo {
+    width: 35%;
+    /*height: 100%;*/
+    /*max-width: 280px;*/
+    margin: 10px 0px 10px 0px;
 
-        #logo {
-            width: 280px;
-            margin: 5px 0px 10px 0px;
+}
+#video {
+    background-color: black;
+}
 
-        }
+div#statement.jumbotron {
+    /*font-family: 'Gentium Basic', serif;*/
+    font-family: 'Roboto Condensed', serif;
+}
 
-        body {
-            background-color: black;
-            color: white;
-        }
+body {
+    /*background-color: black;*/
+    background: linear-gradient(to bottom right, black, rgb(0, 0, 70));
 
-        #navbar {
-            background-color: black;
-            color: white;
-        }
+    color: white;
+    margin: 1%
+}
 
-        .tabs {
-            margin: 0px 0px 0px 15px;
-            padding: 0px 0px 0px 2px;
+#navbar {
+    background-color: black;
+    color: white;
+}
 
-        }
+.tabs {
+    margin: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 2px;
 
-        #statement {
-            background-color: black;
-        }
+}
 
-        @font-face {
-            font-family: "intersection";
-            /* name to be used later */
-            src: url(../urban-brush.ttf)
-            /*URL/file path to font*/
-        }
+.navbarAnchor {
+    padding-top: 120px;
+    margin-top: -120px;
+}
 
-        video {
-            max-height: 700px;
-            /*height:100%;*/
-        }
-
-        h4 {
-            font-size: 60px;
-
-            font-family: 'intersection', sans-serif;
-
-        }
-
-        p {
-            font-size: 17px;
-            font-family: 'Crimson Text', serif;
-        }
-
-        .images {
-            border-radius: 0%;
-            width: 200px;
-            float: left;
-            padding: 35px 0px 0px 0px;
-            margin: 10px 12px 0px 0px;
-        }
-
-        #mueller {
-            padding: 15px 0px 0px 0px;
-        }
-
-        .bio {
-            margin: 0px 20px 0px 0px;
-            padding: 0px 0px 0px 210px;
-
-        }
-
-        .center {
-            margin: auto;
-            padding: 10px;
-            text-align: center;
-
-        }
+div#music {
+    padding-top: 130px;
+    margin-top: -130px;
+}
 
 
+#statement {
+    /*background-color: black;*/
+    /*background: linear-gradient(to bottom right, black, #333333);*/
+    background-color: rgba(0, 0, 0, 0);
+}
 
-        @media(min-width:768px) {
-            h4 {
-                font-size: 70px;
-            }
-            p {
-                font-size: 17px;
-            }
-            .bio {
-                margin: 0px 20px 0px 0px;
-            }
-            /*video{*/
-            /*    width:400px ;*/
-            /*    height: 230px;*/
-            /*}*/
-        }
+@font-face {
+    font-family: "intersection";
+    /* name to be used later */
+    src: url(../urban-brush.ttf)
+    /*URL/file path to font*/
+}
 
-        @media(min-width:992px) {
-            h4 {
-                font-size: 80px;
-            }
-            p {
-                font-size: 18px;
-            }
+video {
+    max-height: 700px;
+    /*height:100%;*/
+}
 
-        }
+h4 {
+    font-size: 60px;
 
-        @media(min-width:1200px) {
-            h4 {
-                font-size: 85px;
-            }
-            p {
-                font-size: 20px;
-            }
+    font-family: 'intersection', sans-serif;
 
-        }
+}
+
+nav {
+    font-family: 'intersection', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Crimson Text', serif;
+}
+
+.images {
+    border-radius: 0%;
+    width: 200px;
+    float: left;
+    padding: 35px 0px 0px 0px;
+    margin: 10px 12px 0px 0px;
+}
+
+#mueller {
+    padding: 15px 0px 0px 0px;
+}
+
+.bio {
+    margin: 0px 20px 0px 0px;
+    /*padding: 0px 0px 0px 210px;*/
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+@media(min-width:768px) {
+    h4 {
+        font-size: 70px;
+    }
+    p {
+        font-size: 17px;
+    }
+    .bio {
+        margin: 0px 20px 0px 0px;
+        /*padding: 100px 100px 100px 100px;*/
+    }
+
+    nav {
+        font-size: 20px;
+    }
+    #logo {
+        width: 280px;
+
+    }
+
+}
+
+@media(min-width:992px) {
+    h4 {
+        font-size: 80px;
+    }
+    p {
+        font-size: 18px;
+    }
+    nav {
+        font-size: 23px;
+    }
+
+
+
+}
+
+@media(min-width:1200px) {
+    h4 {
+        font-size: 85px;
+    }
+    p {
+        font-size: 20px;
+    }
+    nav {
+        font-size: 26px;
+    }
+
+
+}
