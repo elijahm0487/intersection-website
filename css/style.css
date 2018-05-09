@@ -1,5 +1,6 @@
 #logo {
-    width: 25%;
+    width: 35%;
+    /*height: 100%;*/
     /*max-width: 280px;*/
     margin: 10px 0px 10px 0px;
 
@@ -26,10 +27,10 @@ body {
 
 }
 
-.navbarAnchor {
-    padding-top: 120px;
-    margin-top: -120px;
-}
+/*.navbarAnchor {*/
+/*    padding-top: 120px;*/
+/*    margin-top: -120px;*/
+/*}*/
 div#music{
     padding-top: 130px;
     margin-top: -130px;
@@ -110,6 +111,10 @@ p {
     nav{
     font-size: 20px;
     }
+    #logo{
+        width:280px;
+        
+    }
 
 }
 
@@ -123,10 +128,7 @@ p {
     nav{
     font-size: 23px;
     }
-    #logo{
-        width:280px;
-        
-    }
+    
     
 
 }
