@@ -27,10 +27,10 @@ body {
 
 }
 
-/*.navbarAnchor {*/
-/*    padding-top: 120px;*/
-/*    margin-top: -120px;*/
-/*}*/
+.navbarAnchor {
+    padding-top: 120px;
+    margin-top: -120px;
+}
 div#music{
     padding-top: 130px;
     margin-top: -130px;
@@ -83,7 +83,7 @@ p {
 
 .bio {
     margin: 0px 20px 0px 0px;
-    padding: 0px 0px 0px 210px;
+    /*padding: 0px 0px 0px 210px;*/
 
 }
 
@@ -91,6 +91,7 @@ p {
     margin: auto;
     padding: 10px;
     text-align: center;
+     display: block;
 
 }
 
@@ -105,7 +106,7 @@ p {
     }
     .bio {
         margin: 0px 20px 0px 0px;
-        padding: 200px 200px 200px 210px;
+        /*padding: 100px 100px 100px 100px;*/
     }
     
     nav{
