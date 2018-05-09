@@ -5,14 +5,19 @@
     margin: 10px 0px 10px 0px;
 
 }
-div#statement.jumbotron{
-  /*font-family: 'Gentium Basic', serif;*/
- font-family: 'Roboto Condensed', serif; 
+
+#video {
+    background-color: black;
+}
+
+div#statement.jumbotron {
+    /*font-family: 'Gentium Basic', serif;*/
+    font-family: 'Roboto Condensed', serif;
 }
 
 body {
     /*background-color: black;*/
-    background: linear-gradient(to bottom right, black, rgb(0,0,70));
+    background: linear-gradient(to bottom right, black, rgb(0, 0, 70));
 
     color: white;
     margin: 1%
@@ -33,7 +38,8 @@ body {
     padding-top: 120px;
     margin-top: -120px;
 }
-div#music{
+
+div#music {
     padding-top: 130px;
     margin-top: -130px;
 }
@@ -42,7 +48,7 @@ div#music{
 #statement {
     /*background-color: black;*/
     /*background: linear-gradient(to bottom right, black, #333333);*/
-     background-color: rgb(0, 0, 0,0); 
+    background-color: rgb(0, 0, 0, 0);
 }
 
 @font-face {
@@ -63,7 +69,8 @@ h4 {
     font-family: 'intersection', sans-serif;
 
 }
-nav{
+
+nav {
     font-family: 'intersection', sans-serif;
     font-size: 20px;
 }
@@ -88,7 +95,6 @@ p {
 .bio {
     margin: 0px 20px 0px 0px;
     /*padding: 0px 0px 0px 210px;*/
-
 }
 
 .center {
@@ -111,13 +117,13 @@ p {
         margin: 0px 20px 0px 0px;
         /*padding: 100px 100px 100px 100px;*/
     }
-    
-    nav{
-    font-size: 20px;
+
+    nav {
+        font-size: 20px;
     }
-    #logo{
-        width:280px;
-        
+    #logo {
+        width: 280px;
+
     }
 
 }
@@ -129,11 +135,11 @@ p {
     p {
         font-size: 18px;
     }
-    nav{
-    font-size: 23px;
+    nav {
+        font-size: 23px;
     }
-    
-    
+
+
 
 }
 
@@ -144,8 +150,8 @@ p {
     p {
         font-size: 20px;
     }
-    nav{
-    font-size: 26px;
+    nav {
+        font-size: 26px;
     }
 
 
