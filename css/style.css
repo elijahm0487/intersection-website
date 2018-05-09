@@ -4,6 +4,10 @@
     margin: 10px 0px 10px 0px;
 
 }
+div#statement.jumbotron{
+  /*font-family: 'Gentium Basic', serif;*/
+ font-family: 'Roboto Condensed', serif; 
+}
 
 body {
     background-color: black;
