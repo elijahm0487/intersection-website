@@ -3,7 +3,7 @@
          $(this).children(":first").finish()
          var fontSize = parseInt($(this).children(":first").css("font-size"));
          console.log("font size before:" + fontSize)
-         fontSize = fontSize + 10 + "px";
+         fontSize = fontSize + 5 + "px";
          $(this).children(":first").animate({
              fontSize: fontSize
 
@@ -16,7 +16,7 @@
          $(this).children(":first").finish()
          var fontSize = parseInt($(this).children(":first").css("font-size"));
          console.log(fontSize)
-         fontSize = fontSize - 10 + "px";
+         fontSize = fontSize - 5 + "px";
          $(this).children(":first").animate({
              fontSize: fontSize
          })
@@ -45,19 +45,7 @@
                      event.preventDefault();
                      $('html, body').animate({
                          scrollTop: target.offset().top
-                     }, 1000, function() {
-                         // Callback after animation
-                         // Must change focus!
-                         var $target = $(target);
-                         $target.focus();
-                         if ($target.is(":focus")) { // Checking if the target was focused
-                             return false;
-                         }
-                         else {
-                             $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                             $target.focus(); // Set focus again
-                         };
-                     });
+                     }, 1000);
                  }
              }
          });
