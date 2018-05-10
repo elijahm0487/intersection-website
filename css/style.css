@@ -18,8 +18,8 @@ div#statement.jumbotron {
 body {
     /*background-color: black;*/
     background: linear-gradient(to bottom right, black, rgb(45, 45, 45));
-    background: linear-gradient(to bottom right, black, rgb(70, 0, 0));
-    background: linear-gradient(to bottom right, black, rgb(0, 0, 70));
+    /*background: linear-gradient(to bottom right, black, rgb(70, 0, 0));*/
+    /*background: linear-gradient(to bottom right, black, rgb(0, 0, 70));*/
 
     color: white;
     margin: 2%
