@@ -1,5 +1,5 @@
 #logo {
-    width: 35%;
+    width: 25%;
     /*height: 100%;*/
     /*max-width: 280px;*/
     margin: 10px 0px 10px 0px;
@@ -19,7 +19,7 @@ body {
     background: linear-gradient(to bottom right, black, rgb(45, 45, 45));
 
     color: white;
-    margin: 1%
+    margin: 1.5%
 }
 
 #navbar {
@@ -121,7 +121,7 @@ p {
         font-size: 20px;
     }
     #logo {
-        width: 280px;
+        width: 200px;
 
     }
 
