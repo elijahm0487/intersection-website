@@ -22,6 +22,7 @@
          })
 
      })
+     
 
      //  NOT MY CODE 
      $('a[href*="#"]')
@@ -46,6 +47,7 @@
                      $('html, body').animate({
                          scrollTop: target.offset().top
                      }, 1000);
+                     
                  }
              }
          });
