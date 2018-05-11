@@ -6,8 +6,13 @@
 
 }
 
+ul {
+    margin: 2%;
+}
+
 #video {
     background-color: black;
+    margin-top: 65px
 }
 
 div#statement.jumbotron {
@@ -20,9 +25,7 @@ body {
     background: linear-gradient(to bottom right, black, rgb(45, 45, 45));
     /*background: linear-gradient(to bottom right, black, rgb(70, 0, 0));*/
     /*background: linear-gradient(to bottom right, black, rgb(0, 0, 70));*/
-
     color: white;
-    margin: 2%
 }
 
 #navbar {
@@ -65,9 +68,8 @@ video {
 
 h4 {
     font-size: 60px;
-
     font-family: 'intersection', sans-serif;
-
+    margin: 2%;
 }
 
 nav {
@@ -76,6 +78,7 @@ nav {
 }
 
 p {
+    margin: 2%;
     font-size: 17px;
     font-family: 'Crimson Text', serif;
 }
@@ -117,6 +120,14 @@ p {
     margin-top: -60px;
 }
 
+@media(min-height:600px) {
+    video{max-height:570px;}
+}
+@media(min-height:700px) {
+    video{max-height:670px;}
+}@media(min-height:800px) {
+    video{max-height:770px;}
+}
 @media(min-width:768px) {
     h4 {
         font-size: 70px;
@@ -140,6 +151,9 @@ p {
         padding-top: 80px;
         margin-top: -80px;
     }
+    #video {
+        margin-top: 90px
+    }
 
 }
 
@@ -159,7 +173,7 @@ p {
     #questionstab {
         display: inline;
     }
-    
+
 
 
 }
