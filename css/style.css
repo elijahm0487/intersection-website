@@ -69,7 +69,7 @@ video {
 h4 {
     font-size: 60px;
     font-family: 'intersection', sans-serif;
-    margin: 2%;
+    margin: 2%, 0px;
 }
 
 nav {
@@ -78,7 +78,7 @@ nav {
 }
 
 p {
-    margin: 2%;
+    margin: 2% ,0px;
     font-size: 17px;
     font-family: 'Crimson Text', serif;
 }
@@ -107,13 +107,13 @@ p {
 
 }
 
-#questioncontent {
+#embeddedform {
     display: none;
 }
 
-#questionstab {
-    display: none;
-}
+#formlink{
+        display:inline;
+    }
 
 .navbarAnchor {
     padding-top: 60px;
@@ -167,12 +167,15 @@ p {
     nav {
         font-size: 23px;
     }
-    #questioncontent {
+    #embeddedform {
         display: inline;
     }
-    #questionstab {
-        display: inline;
+    #formlink{
+        display:none;
     }
+    /*#questionstab {*/
+    /*    display: inline;*/
+    /*}*/
 
 
 

@@ -30,8 +30,8 @@
 <style>
 </style>
 
-<body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
+    <div id="top"></div>
     <div id="navbar">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
@@ -39,7 +39,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
       </button>
-                    <a class="brand brand-name navbar-left" href="#navbar"><img src = images/whitelogo.png id = "logo"></a>
+                    <a class="brand brand-name navbar-left" href="#top"><img src = images/whitelogo.png id = "logo"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="nav navbar-nav">
@@ -135,10 +135,10 @@
 
                 <div class=" center row">
                     <div class="center col-xs-12 col-sm-4 col-md-3">
-                        <img  src="images/eli.jpg" class="images center" id="eli">
+                        <img src="images/eli.jpg" class="images center" id="eli">
                     </div>
                     <div class="center col-xs-12 col-sm-8 col-md-9">
-                        <p class="bio" align="justify" >Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
+                        <p class="bio" align="justify">Elijah Matos (Facilitator)- Elijah Matos grew up in Brooklyn, New York as a student of Bay Ridge Christian Academy and an attendee at Bay Ridge Christian Center. Upon making the decision to call the Christian faith his own, Elijah
                             knew that he was called to spread the message of Jesus wherever he went. When Elijah entered The High School of Telecommunications, Arts and Technology, an opportunity to spread this message arose. With the support of his Global
                             History teacher Ms. Amreen, and action of his Software Engineering teacher, Mr. Mueller, the Intersection was born. </p>
                     </div>
@@ -148,7 +148,7 @@
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 col-md-3">
-                        <img  src="images/mueller.jpg" class="images center" id="mueller">
+                        <img src="images/mueller.jpg" class="images center" id="mueller">
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-9">
                         <br><br>
@@ -173,11 +173,14 @@
     </div>
     <br><br><br>
     <div class="navbarAnchor" id="questions">
-        <div id="questioncontent">
         <div class="center hover">
             <h4>Questions</h4>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6zKcpGHQLkKDBuuwhgqwZnVC48-nq6MdKxeAVyBo9bp5GYg/viewform?embedded=true" width="70%" height="800px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-        </div>
+            <div id="embeddedform">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6zKcpGHQLkKDBuuwhgqwZnVC48-nq6MdKxeAVyBo9bp5GYg/viewform?embedded=true" width="70%" height="800px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+            <div id="formlink">
+                <h2><a href="https://goo.gl/forms/Fk2hDRsRPRIP9aaK2">Click here to submit a question or topic for discussion</a></h2>
+            </div>
         </div>
     </div>
 
