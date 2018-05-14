@@ -115,10 +115,10 @@ p {
         display:inline;
     }
 
-.navbarAnchor {
-    padding-top: 60px;
-    margin-top: -60px;
-}
+/*.navbarAnchor {*/
+/*    padding-top: 60px;*/
+/*    margin-top: -60px;*/
+/*}*/
 
 @media(min-height:600px) {
     video{max-height:570px;}
@@ -147,10 +147,10 @@ p {
         width: 200px;
 
     }
-    .navbarAnchor {
-        padding-top: 80px;
-        margin-top: -80px;
-    }
+    /*.navbarAnchor {*/
+    /*    padding-top: 80px;*/
+    /*    margin-top: -80px;*/
+    /*}*/
     #video {
         margin-top: 90px
     }
