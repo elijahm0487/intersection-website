@@ -22,9 +22,8 @@ div#statement.jumbotron {
 
 body {
     /*background-color: black;*/
-    background: linear-gradient(to bottom right, black, rgb(55, 55, 55));
-    /*background: linear-gradient(to bottom right, black, rgb(70, 0, 0));*/
-    /*background: linear-gradient(to bottom right, black, rgb(0, 0, 70));*/
+    /*background: linear-gradient(to bottom right, black, rgb(55, 55, 55));*/
+    background: linear-gradient(to bottom right, black, rgb(70, 0, 0));
     color: white;
 }
 
@@ -68,6 +67,11 @@ video {
 
 h4 {
     font-size: 60px;
+    font-family: 'intersection', sans-serif;
+    margin: 2%, 0px;
+}
+h5 {
+    font-size: 30px;
     font-family: 'intersection', sans-serif;
     margin: 2%, 0px;
 }
@@ -115,10 +119,10 @@ p {
         display:inline;
     }
 
-/*.navbarAnchor {*/
-/*    padding-top: 60px;*/
-/*    margin-top: -60px;*/
-/*}*/
+.navbarAnchor {
+    padding-top: 60px;
+    margin-top: -60px;
+}
 
 @media(min-height:600px) {
     video{max-height:570px;}
@@ -129,6 +133,9 @@ p {
     video{max-height:770px;}
 }
 @media(min-width:768px) {
+    body{
+            background: linear-gradient(to bottom right, black, rgb(0, 0, 70));
+    }
     h4 {
         font-size: 70px;
     }
@@ -147,10 +154,10 @@ p {
         width: 200px;
 
     }
-    /*.navbarAnchor {*/
-    /*    padding-top: 80px;*/
-    /*    margin-top: -80px;*/
-    /*}*/
+    .navbarAnchor {
+        padding-top: 80px;
+        margin-top: -80px;
+    }
     #video {
         margin-top: 90px
     }

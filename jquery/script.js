@@ -3,7 +3,7 @@
          $(this).children(":first").finish()
          var fontSize = parseInt($(this).children(":first").css("font-size"));
          console.log("font size before:" + fontSize)
-         fontSize = fontSize + 5 + "px";
+         fontSize = fontSize + 10 + "px";
          $(this).children(":first").animate({
              fontSize: fontSize
 
@@ -16,7 +16,35 @@
          $(this).children(":first").finish()
          var fontSize = parseInt($(this).children(":first").css("font-size"));
          console.log(fontSize)
-         fontSize = fontSize - 5 + "px";
+         fontSize = fontSize - 10 + "px";
+         $(this).children(":first").animate({
+             fontSize: fontSize
+         })
+
+     })
+     
+     
+     
+     
+     
+     $(".smhover").mouseenter(function() {
+         $(this).children(":first").finish()
+         var fontSize = parseInt($(this).children(":first").css("font-size"));
+         console.log("font size before:" + fontSize)
+         fontSize = fontSize + 2 + "px";
+         $(this).children(":first").animate({
+             fontSize: fontSize
+
+         })
+         console.log("font size after:" + fontSize)
+
+
+     })
+     $(".smhover").mouseleave(function() {
+         $(this).children(":first").finish()
+         var fontSize = parseInt($(this).children(":first").css("font-size"));
+         console.log(fontSize)
+         fontSize = fontSize - 2 + "px";
          $(this).children(":first").animate({
              fontSize: fontSize
          })
@@ -47,6 +75,9 @@
     } // End if
   });
 
+
+
+// from https://www.inserthtml.com/2013/03/custom-html5-video-player/
 
  });
  
