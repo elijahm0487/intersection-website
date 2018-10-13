@@ -3,7 +3,7 @@
          $(this).children(":first").finish()
          var fontSize = parseInt($(this).children(":first").css("font-size"));
          console.log("font size before:" + fontSize)
-         fontSize = fontSize + 10 + "px";
+         fontSize = fontSize + 8 + "px";
          $(this).children(":first").animate({
              fontSize: fontSize
 
@@ -16,7 +16,7 @@
          $(this).children(":first").finish()
          var fontSize = parseInt($(this).children(":first").css("font-size"));
          console.log(fontSize)
-         fontSize = fontSize - 10 + "px";
+         fontSize = fontSize - 8 + "px";
          $(this).children(":first").animate({
              fontSize: fontSize
          })
